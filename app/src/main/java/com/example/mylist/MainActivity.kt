@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //aqui se crea un array donde se contendra la lista de datos
     emelyst= ArrayList()
         recyclerView= findViewById(R.id.lista) as RecyclerView
         recyclerViewAdapter= recycler(emelyst)
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView!!.adapter=recyclerViewAdapter
         bro()
     }
+    // aqui hacemos un metodo donde colocamos as nuestros amigos con su descripcion
     private fun bro(){
         var amigos= datos("Gabriel",R.drawable.bro,"Es carismatico y muy sociable, le gusta conocer mucha gente. ")
         emelyst.add(amigos)
