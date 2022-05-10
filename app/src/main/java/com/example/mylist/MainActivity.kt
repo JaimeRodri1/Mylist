@@ -28,9 +28,15 @@ class MainActivity : AppCompatActivity() {
         bro()
     }
     private fun bro(){
-        var amigos= datos("Gabriel",R.drawable.bro,"Mi hermano de otra madre, tremendo hijueputa")
+        var amigos= datos("Gabriel",R.drawable.bro,"Es carismatico y muy sociable, le gusta conocer mucha gente. ")
         emelyst.add(amigos)
-        amigos= datos("Chamba",R.drawable.bro,"tu no mete cabra saramabiche")
+        amigos= datos("Salvador",R.drawable.bro,"Es muy amigable y tambien muy inteligente")
+        emelyst.add(amigos)
+        amigos= datos("Adiel",R.drawable.m2,"Es muy inteligente y gran amigo siempre te apoya")
+        emelyst.add(amigos)
+        amigos= datos("Melvin",R.drawable.m1,"Es muy amigable y tambien muy inteligente siempre te brinda apoyo")
+        emelyst.add(amigos)
+        amigos= datos("Melvin Perez",R.drawable.m3,"Es muy agradable y divritdo muy buen amigo")
         emelyst.add(amigos)
 
         recyclerViewAdapter?.notifyDataSetChanged()
