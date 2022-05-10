@@ -31,7 +31,8 @@ RecyclerView.Adapter<recycler.MyViewHolder>(){
         clickListener = emiClickListener
     }
     inner class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val nombre: TextView = itemView.findViewById(R.id.name)
+       //aqui se declaran variables a la cuales les damos que datos contendran
+       val nombre: TextView = itemView.findViewById(R.id.name)
         val imagen: ImageView= itemView.findViewById(R.id.maje)
         val cardView: CardView = itemView.findViewById(R.id.carView)
         val descripcion: TextView = itemView.findViewById(R.id.caracter)

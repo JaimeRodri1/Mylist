@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     private fun bro(){
         var amigos= datos("Gabriel",R.drawable.bro,"Es carismatico y muy sociable, le gusta conocer mucha gente. ")
         emelyst.add(amigos)
-        amigos= datos("Salvador",R.drawable.bro,"Es muy amigable y tambien muy inteligente")
+        amigos= datos("Salvador",R.drawable.salvador,"Es muy amigable y tambien muy inteligente")
         emelyst.add(amigos)
         amigos= datos("Adiel",R.drawable.m2,"Es muy inteligente y gran amigo siempre te apoya")
         emelyst.add(amigos)
